@@ -45,7 +45,7 @@
   "rpc-bind-address": "0.0.0.0",
   "rpc-enabled": true,
   "rpc-password": "password",
-  "rpc-port": 9091,
+  "rpc-port": 80,
   "rpc-username": "transmission",
   "rpc-whitelist": "127.0.0.1,*.*.*.*",
   "rpc-whitelist-enabled": true,

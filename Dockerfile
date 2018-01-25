@@ -18,9 +18,7 @@ ADD ./settings.json /var/lib/transmission-daemon/info/settings.json
 ADD ./start.sh /start.sh
 RUN chmod u+x  /start.sh
 
-EXPOSE 9091 45555
-
-ENV USERNAME="transmission" \
-    PASSWORD="password"
+#9091
+EXPOSE 80 45555
 
 CMD ["/start.sh"]
