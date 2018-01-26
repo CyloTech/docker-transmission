@@ -11,7 +11,7 @@ RUN add-apt-repository -y ppa:transmissionbt/ppa && \
     rm -rf /var/lib/apt/lists/* && \
     rm -rf /tmp/*
 
-VOLUME ["/downloads", "/incomplete", "/watch", "/config"]
+VOLUME ["/torrents"]
 
 ADD ./settings.json /var/lib/transmission-daemon/info/settings.json
 
